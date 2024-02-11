@@ -1,0 +1,521 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+li {
+    list-style-type: none;
+}
+
+button {
+    outline: none; 
+    background: none;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.padding__right {
+    padding-right: 100px;
+}
+
+.container {
+    background: #F4F6F5;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.padding {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.header__container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #E1EDE6;
+}
+
+
+.header__logo::before {
+    position: relative;
+    content: "Ink. House";
+    bottom: 10px;
+    left: 138px;
+    color: #598D66;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.header__item-button {
+    color: #2C2D35;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__list {
+    display: flex;
+    gap: 80px;
+}
+
+.top__info {
+    padding-left: 50px;
+}
+
+.top__container {
+    background: #F4F6F5;
+    display: flex;
+    justify-content: space-between;
+}
+
+.center {
+    align-items: center;
+}
+
+.top__1 {
+    color: #2C2D35;
+    font-family: Raleway;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 110%;
+    padding-bottom: 20px;
+}
+
+.top__2 {
+    color: #598D66;
+    font-family: Raleway;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 110%;
+}
+
+.top__3 {
+    color: #86928B;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    padding-bottom: 60px;
+}
+
+.top__4 {
+    display: inline-flex;
+    padding: 20px 60px;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    flex-shrink: 0;
+    border: 1px solid #598D66;
+    color: #598D66;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.top__picture {
+    padding-bottom: 69px;
+}
+
+.main__info {
+    color: #2C2D35;
+    font-family: Raleway;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 110%;
+    padding-bottom: 31px;
+}
+
+.main__picture-top {
+    display: flex;
+    gap: 50px;
+    padding-bottom: 30px;
+}
+
+.main__card {
+    background-color: #E1EDE6;
+    max-width: 30vw;
+    align-items: center;
+    padding: 20px;
+}
+
+.main__top__small {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px 0 100px ;
+}
+
+.main__button {
+    display: flex;
+    justify-content: right;
+    gap: 32px;
+
+}
+
+.main__name {
+    right: 100vw;
+
+
+}
+
+.main__center {
+    display: grid;
+    justify-content: center;
+}
+
+.main__slider {
+    top: 60px;
+}
+
+.main__item-button {
+    display: flex;
+    padding: 10px 20px;
+    align-items: flex-start;
+    border-radius: 20px;
+    background: #376B44;
+    color: #F4F6F5;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.main__picture {
+    margin-bottom: 20px;
+}
+
+.card__author {
+    margin-bottom: 10px;
+}
+
+.card__name {
+    margin-bottom: 8px;
+}
+
+.card__material {
+    margin-bottom: 30px;
+}
+
+.card__prise {
+    margin-bottom: 20px;
+}
+
+.main__item-button1 {
+    display: flex;
+    padding: 10px 20px;
+    align-items: flex-start;
+    border-radius: 20px;
+    background: #D4E8D9;
+    color: #2C2D35;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.main__picture-bottom {
+    display: flex;
+    gap: 50px;
+    padding-bottom: 70px;
+}
+
+.card__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    flex-shrink: 0;
+    border: 1px solid #598D66;
+
+}
+
+.card__author {
+    color: #86928B;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.card__name {
+    color: #2C2D35;
+    font-family: Raleway;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.card__material {
+    color: #2C2D35;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+
+.card__prise {
+    color: #598D66;
+    font-family: Raleway;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.card__button {
+    display: flex;
+    padding: 20px 60px;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    flex-shrink: 0;
+}
+
+.card__but {
+    color: #598D66;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.photo__container {
+    background-image: url(../img/ded_photo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-size: 1440px 574px;
+}
+
+.photo__logo {
+    background-image: url(../img/logo_star.svg);
+    background-position: left center;
+    background-size: 80px 80px;
+    background-repeat: no-repeat;
+    padding-bottom: 20px;
+    max-width: 521px;
+    padding-left: 100px;
+    color: #F4F6F5;
+    font-family: Raleway;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    padding-top: 70px;
+    padding-left: 165px;
+    /* mix-blend-mode: soft-light;
+    opacity: 0.7;
+    background: lightgray 0% 0% / 100px 100px repeat; */
+
+
+}
+
+.photo__button {
+    max-width: 257px;
+    max-height: 65px;
+    background-color: #EEDB6D;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo__but {
+    color: #2C2D35;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.photo__text-top {
+    color: #FFF;
+
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    padding-bottom: 20px;
+    max-width: 540px;
+    padding-left: 165px;
+}
+
+.photo__text-bot {
+    color: #FFF;
+
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    max-width: 540px;
+    padding-bottom: 60px;
+    padding-left: 165px;
+}
+
+.but_a {
+    padding-left: 165px;
+    padding-bottom: 100px;
+    margin-bottom: 109px;
+}
+
+.text__black {
+    color: #2C2D35;
+
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.text__first {
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.text__second {
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+.team__container {
+    background: #F4F6F5;
+    display: flex;
+}
+
+.team__text {
+    padding-left: 30px;
+    padding-top: 115px;
+}
+
+.text__avatar {
+    display: flex;
+    gap: 30px;
+}
+
+.team__hand {
+    padding-bottom: 70px;
+}
+
+.footer__container {
+    background-color: #E1EDE6;
+    display: flex;
+    padding-top: 23px;
+}
+
+.footer__logo {
+    top: 40px;
+    min-height: 101px;
+}
+
+.footer__logo::before {
+    position: relative;
+    content: "Ink. House";
+    top: 30px;
+    left: 48px;
+    color: #598D66;
+    font-family: Raleway;
+    /* font-size: 20px; */
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.footer__lo {
+    padding-bottom: 41px;
+}
+
+.footer__list {
+    gap: 59px;
+    padding-left: 115px;
+}
+
+.footer__nu {
+    color: #2C2D35;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 10px;
+}
+
+.number__word {
+    color: #86928B;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.footer__list {
+    display: flex;
+}
+
+.list__black {
+    color: #2C2D35;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 8px;
+}
+
+.list__element {
+    color: #86928B;
+
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    padding-bottom: 8px;
+}
+
+.social__picture {
+    display: flex;
+    gap: 30px;
+}
+
+.social {
+    padding-left: 253px;
+}
+
+.text__top {
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
